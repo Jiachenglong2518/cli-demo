@@ -1,7 +1,7 @@
 <template>
   <div>
     <p>index</p>
-    <p>count:{{}} </p>
+    <p>count: </p>
   </div>
 </template>
 
