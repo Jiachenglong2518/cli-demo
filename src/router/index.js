@@ -9,8 +9,7 @@ Vue.use(VueRouter)
     path: '/',
     name: 'Index',
     component: index
-  },
-  {
+  },{
     path: '/about',
     name: 'About',
     // route level code-splitting
@@ -21,6 +20,10 @@ Vue.use(VueRouter)
     path: '/personal/index',
     name: 'personalidex',
     component: () => import(/* webpackChunkName: "about" */ '../views/personal/index.vue')
+  },{
+    path: '/flex',
+    name: 'flex',
+    component : () => import ('../views/flex.vue')
   }
 ]
 console.log( process.env.BASE_URL);
