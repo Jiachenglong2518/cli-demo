@@ -24,6 +24,14 @@ Vue.use(VueRouter)
     path: '/flex',
     name: 'flex',
     component : () => import ('../views/flex.vue')
+  },{
+    path: '/for-key',
+    name: 'for-key',
+    component : () => import ('../views/for-key.vue')
+  },{
+    path: '/animation',
+    name: 'animation',
+    component : () => import ('../views/animation.vue')
   }
 ]
 console.log( process.env.BASE_URL);
